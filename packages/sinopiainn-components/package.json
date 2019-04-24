@@ -1,0 +1,35 @@
+{
+  "name": "sinopiainn-components",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "machelslackatnewsuk <machelsandile.slack@news.co.uk>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/sinopiainn-components.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "tsc": "tsc",
+    "webpack": "webpack",
+    "storybook": "start-storybook -p 9001 -c .storybook"
+  },
+  "dependencies": {
+    "@types/react": "^16.8.14",
+    "@types/react-dom": "^16.8.4",
+    "@types/storybook__react": "^4.0.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@storybook/react": "^5.0.10",
+    "awesome-typescript-loader": "^5.2.1",
+    "react-docgen-typescript-loader": "^3.1.0",
+    "react-docgen-typescript-webpack-plugin": "^1.1.0"
+  }
+}
